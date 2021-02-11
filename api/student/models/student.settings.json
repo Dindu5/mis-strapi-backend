@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "name": "student",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "othernames": {
+      "type": "string"
+    },
+    "reg_no": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "department": {
+      "via": "students",
+      "model": "department"
+    }
+  }
+}
