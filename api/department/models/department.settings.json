@@ -18,8 +18,8 @@
       "type": "string"
     },
     "students": {
-      "collection": "student",
-      "via": "department"
+      "via": "department",
+      "collection": "student"
     },
     "faculty": {
       "model": "faculty",

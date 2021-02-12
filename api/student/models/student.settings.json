@@ -30,8 +30,11 @@
       "type": "integer"
     },
     "department": {
-      "via": "students",
-      "model": "department"
+      "model": "department",
+      "via": "students"
+    },
+    "manual_id": {
+      "type": "string"
     }
   }
 }
