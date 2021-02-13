@@ -19,6 +19,10 @@
     "departments": {
       "via": "faculty",
       "collection": "department"
+    },
+    "students": {
+      "via": "faculty",
+      "collection": "student"
     }
   }
 }

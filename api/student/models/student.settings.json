@@ -35,6 +35,10 @@
     },
     "manual_id": {
       "type": "string"
+    },
+    "faculty": {
+      "model": "faculty",
+      "via": "students"
     }
   }
 }
