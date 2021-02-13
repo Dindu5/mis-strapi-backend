@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "name": "profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lastname": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "integer"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "profile"
+    }
+  }
+}

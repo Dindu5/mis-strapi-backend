@@ -39,6 +39,11 @@
     "faculty": {
       "model": "faculty",
       "via": "students"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "students"
     }
   }
 }
